@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view, typically from a nib.
+//    }
+//
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    @IBOutlet weak var tapDown: UIButton!
+    
+    
+    @IBOutlet weak var tapCounts: UILabel!
+    
+    
+ //   @IBOutlet var resetCounts: UIView!
+    
+    @IBOutlet weak var resetCounts: UIButton!
+    
+    
 }
 
