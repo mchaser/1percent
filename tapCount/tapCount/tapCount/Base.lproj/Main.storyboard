@@ -47,7 +47,6 @@
                     </view>
                     <connections>
                         <outlet property="resetCounts" destination="83s-vG-vPT" id="MdJ-e3-iWy"/>
-                        <outlet property="tapCounts" destination="aye-dF-zuS" id="t2A-HD-Jbx"/>
                         <outlet property="tapDown" destination="rYF-oP-hhJ" id="KT2-3O-A3o"/>
                     </connections>
                 </viewController>
