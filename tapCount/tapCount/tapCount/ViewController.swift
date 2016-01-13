@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapDown: UIButton!
     
     
-    @IBOutlet weak var tapCounts: UILabel!
+   // @IBOutlet weak var tapCounts: UILabel!
     
     
  //   @IBOutlet var resetCounts: UIView!
