@@ -21,13 +21,13 @@ class ViewController: UIViewController {
 //    }
 
     
-
-    
     @IBOutlet weak var tapCountDisplay: UILabel!
-        //{
-        
-    //    tapCountDisplay.text = "\(tapToADD.tapCounter)"
-   // }
+
+
+//        //{
+//        
+//    //    tapCountDisplay.text = "\(tapToADD.tapCounter)"
+//   // }
 
 
     @IBAction func tapToAdd(sender: UIButton) {
