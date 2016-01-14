@@ -21,14 +21,35 @@ class ViewController: UIViewController {
 //    }
 
     
-    @IBOutlet weak var tapDown: UIButton!
+
     
+    @IBOutlet weak var tapCountDisplay: UILabel!
     
-   // @IBOutlet weak var tapCounts: UILabel!
+    var displayValue: Int{
+        get{
+            return NSNumberFormatter().numberFromString(tapCountDisplay.text!).integerValue
+        }
+    }
     
-    
- //   @IBOutlet var resetCounts: UIView!
-    
+//    var displayValue: Double{
+//        get{
+//            return NSNumberFormatter().numberFromString(display.text!)!.doubleValue
+//        }
+//        set{
+//            display.text = "\(newValue)"
+//            userIsInTheMiddleOfTypingANumber = false
+//        }
+//    }
+
+
+    @IBAction func tapToAdd(sender: UIButton){
+        var tapCounter = 0
+            tapCounter += 1
+            print("\(tapCounter)")
+        tapCountDisplay.text = tapCounter
+    }
+
+
     @IBOutlet weak var resetCounts: UIButton!
     
     
