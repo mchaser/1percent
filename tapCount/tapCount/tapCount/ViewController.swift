@@ -21,14 +21,24 @@ class ViewController: UIViewController {
 //    }
 
     
-    @IBOutlet weak var tapDown: UIButton!
-    
-    
-    @IBOutlet weak var tapCounts: UILabel!
-    
-    
- //   @IBOutlet var resetCounts: UIView!
-    
+    @IBOutlet weak var tapCountDisplay: UILabel!
+
+
+//        //{
+//        
+//    //    tapCountDisplay.text = "\(tapToADD.tapCounter)"
+//   // }
+
+
+    @IBAction func tapToAdd(sender: UIButton) {
+        var tapCounter = 0
+            tapCounter += 1
+            NSLog ("\(tapCounter)")
+ //       return "\(tapCounter)"
+
+    }
+
+
     @IBOutlet weak var resetCounts: UIButton!
     
     
