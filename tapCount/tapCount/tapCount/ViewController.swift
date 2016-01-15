@@ -20,27 +20,30 @@ class ViewController: UIViewController {
 //        // Dispose of any resources that can be recreated.
 //    }
 
+
     
     @IBOutlet weak var tapCountDisplay: UILabel!
 
 
-//        //{
-//        
-//    //    tapCountDisplay.text = "\(tapToADD.tapCounter)"
-//   // }
-
-
-    @IBAction func tapToAdd(sender: UIButton) {
-        var tapCounter = 0
-            tapCounter += 1
-            NSLog ("\(tapCounter)")
- //       return "\(tapCounter)"
-
+    var tapCount = 0
+    
+    @IBAction func tapToAdd() {
+        NSLog("button pressed")
+        NSLog("\(tapCount)")
+        tapCount += 1
+        tapCountDisplay.text = " \(tapCount)"
+        NSLog("\(tapCount)")
     }
 
 
-    @IBOutlet weak var resetCounts: UIButton!
+    @IBAction func resetTapCount(sender: UIButton) {
+        tapCount = 0
+        tapCountDisplay.text = "0"
+        
+    }
     
+
+
     
 }
 

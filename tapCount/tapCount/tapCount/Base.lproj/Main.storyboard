@@ -20,12 +20,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83s-vG-vPT">
                                 <rect key="frame" x="20" y="28" width="39" height="30"/>
                                 <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetTapCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gcw-GG-lAe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYF-oP-hhJ">
                                 <rect key="frame" x="270" y="550" width="60" height="30"/>
                                 <state key="normal" title="Tap here"/>
                                 <connections>
-                                    <action selector="tapToAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrY-FK-NuO"/>
+                                    <action selector="tapToAdd" destination="BYZ-38-t0r" eventType="touchUpInside" id="TnF-aX-ERo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aye-dF-zuS">
@@ -49,8 +52,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="resetCounts" destination="83s-vG-vPT" id="MdJ-e3-iWy"/>
-                        <outlet property="tapCount" destination="aye-dF-zuS" id="Rtc-cC-utv"/>
                         <outlet property="tapCountDisplay" destination="aye-dF-zuS" id="5VS-90-Jrq"/>
                     </connections>
                 </viewController>
