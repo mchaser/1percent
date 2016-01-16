@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A7A9FB01C4A364E009A9034 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7A9FAF1C4A364E009A9034 /* iAd.framework */; };
 		5AFB8C371C4522CA0001F57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB8C361C4522CA0001F57F /* AppDelegate.swift */; };
 		5AFB8C391C4522CA0001F57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB8C381C4522CA0001F57F /* ViewController.swift */; };
 		5AFB8C3C1C4522CA0001F57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB8C3A1C4522CA0001F57F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A7A9FAF1C4A364E009A9034 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		5AFB8C331C4522CA0001F57F /* tapCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFB8C361C4522CA0001F57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AFB8C381C4522CA0001F57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7A9FB01C4A364E009A9034 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		5AFB8C2A1C4522CA0001F57F = {
 			isa = PBXGroup;
 			children = (
+				5A7A9FAF1C4A364E009A9034 /* iAd.framework */,
 				5AFB8C351C4522CA0001F57F /* tapCount */,
 				5AFB8C4A1C4522CB0001F57F /* tapCountTests */,
 				5AFB8C551C4522CB0001F57F /* tapCountUITests */,
