@@ -484,6 +484,7 @@
 				5AFB8C5D1C4522CB0001F57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AFB8C5E1C4522CB0001F57F /* Build configuration list for PBXNativeTarget "tapCountTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				5AFB8C601C4522CB0001F57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AFB8C611C4522CB0001F57F /* Build configuration list for PBXNativeTarget "tapCountUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				5AFB8C631C4522CB0001F57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
