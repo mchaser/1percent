@@ -54,7 +54,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Tap or Hold"/>
                                 <connections>
-                                    <action selector="tapToAdd" destination="BYZ-38-t0r" eventType="touchUpInside" id="TnF-aX-ERo"/>
+                                    <action selector="holdToAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgV-da-hrl"/>
+                                    <action selector="tapToAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rv9-5w-OPg"/>
                                 </connections>
                             </button>
                         </subviews>
