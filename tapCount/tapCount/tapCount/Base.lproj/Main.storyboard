@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -58,6 +59,9 @@
                                     <action selector="tapToAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rv9-5w-OPg"/>
                                 </connections>
                             </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" translatesAutoresizingMaskIntoConstraints="NO" id="HTF-T1-KAf">
+                                <rect key="frame" x="0.0" y="524" width="600" height="66"/>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,11 +69,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aye-dF-zuS" secondAttribute="bottom" constant="250" id="8Gl-4C-L9H"/>
                             <constraint firstItem="aye-dF-zuS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="230" id="HZE-LK-dnD"/>
                             <constraint firstItem="rPn-Nz-aan" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="O0G-cj-7Pi"/>
+                            <constraint firstItem="HTF-T1-KAf" firstAttribute="leading" secondItem="rPn-Nz-aan" secondAttribute="leading" id="Tem-JX-LTI"/>
                             <constraint firstItem="aye-dF-zuS" firstAttribute="centerX" secondItem="rPn-Nz-aan" secondAttribute="centerX" id="dOI-m1-1Fa"/>
                             <constraint firstItem="rPn-Nz-aan" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="f7v-N4-irP"/>
                             <constraint firstItem="rYF-oP-hhJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jAV-yb-TuX"/>
                             <constraint firstItem="rYF-oP-hhJ" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="-229" id="kVJ-am-ssn"/>
                             <constraint firstItem="aye-dF-zuS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oLX-iZ-WtG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="HTF-T1-KAf" secondAttribute="bottom" constant="10" id="tHF-Qp-UoO"/>
                             <constraint firstItem="aye-dF-zuS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zyJ-XI-m27"/>
                         </constraints>
                         <variation key="default">
